@@ -1,0 +1,105 @@
+@font-face {
+    font-family: PAC-FONT;
+    src: url("../fonts/PAC-FONT.TTF");
+}
+
+@font-face {
+    font-family: zorque;
+    src: url("../fonts/zorque.ttf")
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, rgb(10,97,174),rgb(120,226,124));
+}
+
+.nav {
+	height: 6vmin;
+	background: linear-gradient(to right, rgb(47,196,174), rgb(253,255,64));
+}
+
+.nav_items {
+	display: block;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: rgb(92,49,225);
+
+	margin-top: 2vmin;
+	margin-right: 2vmin;
+}
+
+.logo {
+	max-width: 10%;
+	display: block;
+    left: 45%;
+   	position: fixed;
+}
+
+.f1 {
+	color: rgb(244,252,68);
+	font-family: PAC-FONT; 
+	font-size: 50px;
+}
+
+.f2 {
+	color: rgb(244,252,68);
+	font-family: zorque; 
+	font-size: 50px;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bottom {
+	margin: 0;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+
+.d1, .d2, .d3, .d4, .d5 {
+	float: left;
+	width: 19vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+.d1 img, .d2 img, .d3 img, .d4 img, .d5 img {
+    display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+
+.d5 img {
+	border:1px solid white;
+}
+
+footer {
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
